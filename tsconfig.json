@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "allowUnreachableCode": true,
+        "strictNullChecks": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "target": "es5",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": false,
+        "sourceMap": true,
+        "outDir": "./lib",
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "downlevelIteration": true,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "rootDir": ".",
+        "paths": {
+            "@/*":["src/*"],
+            "@/types":["src/types"]
+        }
+    },
+    "include": [
+        "src/index.ts"
+    ]
+}
